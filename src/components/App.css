@@ -1,0 +1,25 @@
+.counter{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items:flex-start;
+padding-left: 50px;
+    /* margin-left: 30px; */
+    /* padding-left: 30px; */
+    font-size: 40;
+    color:#020101;
+}
+
+.counter__btn{
+    min-width: 44px;
+    border-style: hidden;
+    border-radius: 4px;
+    background-color: lightblue;
+    padding: 4px 8px;
+
+}
+
+.counter__btn:not(:last-child){
+    margin-right: 8px;
+}
