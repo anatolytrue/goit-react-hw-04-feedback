@@ -37,7 +37,7 @@ export default function App() {
     return countTotalFeedback() && parseInt((good / countTotalFeedback()) * 100);
   }
 
-    const buttons = ['good', 'neutral', 'bad'];
+    const buttons = Object.keys({ good, neutral, bad });
     const totalFeedbacks = countTotalFeedback();
     const positivePercent = countPositiveFeedbackPercentage();
 
